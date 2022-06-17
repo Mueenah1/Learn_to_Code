@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    transition: ;
+}
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color:  hsl(0, 100%, 74%);
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    
+}
+#a{
+    width: 50%;
+    color: aliceblue;
+    margin-top: 15em;
+    margin-left: ;
+}
+.text{
+    margin-left: 25%;
+    margin-right: ;
+    margin-bottom: 15px;
+    width: 50%;
+}
+#T1{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.T2{
+    margin-left: 25%;
+    margin-right: ;
+    width: 65%;
+    font-family: 'Poppins', sans-serif;
+}
+#b{
+    width: 50%;
+    margin-top: 5em;
+}
+#topButton{
+    margin-left: 1em;
+    width: 70%;
+    padding: 18px;
+    border:none;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    background-color:  hsl(248, 32%, 49%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.c{
+    width: 70%;
+    margin-left: 1em;
+    border-radius: 1em;
+}
+#area{
+    padding-top: 2em;
+    border-radius: 1em;
+    background-color: white;
+}
+.paragraph{
+    margin-left: 15px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.box{
+    margin-left: 10px;
+    padding: 13px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    width: 90%;
+}
+#button{
+    margin-left: 15px;
+    cursor: pointer;
+}
+#buttomBut{
+    width:94%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 1em;
+    margin-left: 10px;
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+#T3{
+    text-align: center;
+    color: gainsboro;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+#anchor{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+input:required:invalid{
+    outline: none;
+    border: none;
+    border: 1px solid hsl(0, 100%, 74%);
+    background-image: url(icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    
+  }
+  span {
+    margin-left: 58%;
+    font-size: 0.8em;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+  }
+  
+  input:invalid + span {
+    display: inline;
+    color: hsl(0, 100%, 74%);
+    float: right;
+    font-size: 14px;
+  
+  }
+  
+  input:invalid {
+    outline: none;
+    border: none;
+    border: 1px solid hsl(154, 59% 31%);
+  }
+       
+  
